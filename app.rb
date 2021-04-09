@@ -14,7 +14,5 @@ class App < Sinatra::Base
   get '/friends' do
     # Write your code here!
     puts params
-    erb :friends
-
   end
 end
